@@ -1,0 +1,40 @@
+independent_variables:
+- header:
+    name: z_g
+  values:
+  - low: 0.2
+    high: 0.25
+  - low: 0.25
+    high: 0.3
+  - low: 0.3
+    high: 0.35
+  - low: 0.35
+    high: 0.5
+
+dependent_variables:
+- header: {name: pp, units: none}
+  qualifiers:
+  - {name: R_jet, value: 0.2} 
+  - {name: Jet_algorithm, value: Anti-k_T} 
+  - {name: z_SD, value: 0.2} 
+  - {name: beta_SD, value: 0.0} 
+  - {name: p_Tjet, value: 60-80 GeV/c} 
+  - {name: eta_jet, value: -0.7 < eta_jet < 0.7 } 
+  - {name: thetag_RANGE, value: 0.3-1.0}
+  values:
+  - value: 1.89605
+    errors:
+    - {label: stat, symerror: 0.179106}
+    - {label: sys,  symerror: 0.111233}
+  - value: 1.57384
+    errors:
+    - {label: stat, symerror: 0.168599}
+    - {label: sys,  symerror: 0.0782524}
+  - value: 1.54098
+    errors:
+    - {label: stat, symerror: 0.172289}
+    - {label: sys,  symerror: 0.0574177}
+  - value: 1.17185
+    errors:
+    - {label: stat, symerror: 0.0957893}
+    - {label: sys,  symerror: 0.0401435}

@@ -1,0 +1,155 @@
+additional resources:
+- {description: arXiv, location: 'https://arxiv.org/abs/2606.20061'}
+comment: A measurement of the correlation between the splitting angle $\theta_{g}$ and the momentum-sharing fraction $z_{g}$ of the first hard splitting in a parton shower in pp collisions and $0–10\%$ central Pb–Pb collisions at $\sqrt{s_{NN}}=5.02$ TeV with the ALICE detector is reported. Charged-particle jets are reconstructed using the anti-kT algorithm with a jet resolution parameter R = 0.2, in the transverse-momentum range $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c. The Soft Drop grooming algorithm is used to identify the first splitting in the parton shower. Jets observed in Pb–Pb collisions are narrower than in pp collisions. This effect is more pronounced for balanced than for unbalanced jets. No significant modification of the momentum-sharing fraction is observed for jets with small opening angles. In contrast, there is a hint that jets with a large opening angle may be less balanced in transverse-momentum in Pb–Pb collisions compared to pp collisions. The correlations between $\theta_{g}$ and $z_{g}$ are well described in the pp collisions by PYTHIA 8 and POWHEG while HERWIG shows too little jets with large opening angle. In Pb–Pb collisions the measurement is compared to a variety of models. The measurement is insensitive to the different implementations of medium response. Inclusion of elastic scatterings, as implemented in the H YBRID model is preferred to describe the unbalanced jets with large $\theta_{g}$ in Pb–Pb collisions. The balanced jets, however, are less sensitive to elastic scatterings. 
+data_license: {description: The content can be shared and adapted but you must give
+    appropriate credit and cannot restrict access to others., name: cc-by-4.0, url: 'https://creativecommons.org/licenses/by/4.0/'}
+---
+data_file: table1.yaml
+description: The distributions of $\theta_{g}$ in pp collisions at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0 \leq z_{g} < 0.35$.
+keywords:
+- name: reactions
+  values: [P P --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 2 (left), 6 (left), A1 (left)
+name: Table 1
+---
+data_file: table2.yaml
+description: The distributions of $\theta_{g}$ in pp collisions at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0.35 \leq z_{g} < 0.5$.
+keywords:
+- name: reactions
+  values: [P P --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 2 (right), 6 (right), A1 (right)
+name: Table 2
+---
+data_file: table3.yaml
+description: The distributions of $z_{g}$ in pp collisions at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0 \leq \theta_{g} < 0.3$.
+keywords:
+- name: reactions
+  values: [P P --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 3 (left), 7 (left), A2 (left)
+name: Table 3
+---
+data_file: table4.yaml
+description: The distributions of $z_{g}$ in pp collisions at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0.3 \leq \theta_{g} < 1.0$.
+keywords:
+- name: reactions
+  values: [P P --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 3 (right), 7 (right), A2 (right)
+name: Table 4
+---
+data_file: table5.yaml
+description: The distributions of $\theta_{g}$ in 0-10% central Pb–Pb collisions at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0 \leq z_{g} < 0.35$.
+keywords:
+- name: reactions
+  values: [Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 4 (upper and bottom left), 6 (left)
+name: Table 5
+---
+data_file: table6.yaml
+description: The distributions of $\theta_{g}$ in 0-10% central Pb–Pb collisions at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0.35 \leq z_{g} < 0.5$.
+keywords:
+- name: reactions
+  values: [Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 4 (upper and bottom right), 6 (right)
+name: Table 6
+---
+data_file: table7.yaml
+description: The distributions of $z_{g}$ in 0-10% central Pb–Pb collisions at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0 \leq \theta_{g} < 0.3$.
+keywords:
+- name: reactions
+  values: [Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 5 (upper and bottom left), 7 (left)
+name: Table 7
+---
+data_file: table8.yaml
+description: The distributions of $z_{g}$ in 0-10% central Pb–Pb collisions at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0.3 \leq \theta_{g} < 1.0$.
+keywords:
+- name: reactions
+  values: [Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 5 (upper and bottom right), 7 (right)
+name: Table 8
+---
+data_file: table9.yaml
+description: The ratio of Pb–Pb/pp distributions of $\theta_{g}$ at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0 \leq z_{g} < 0.35$.
+keywords:
+- name: reactions
+  values: [P P --> jet + X, Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 6 (two bottom panels, left)
+name: Table 9
+---
+data_file: table10.yaml
+description: The ratio of Pb–Pb/pp distributions of $\theta_{g}$ at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0.35 \leq z_{g} < 0.5$.
+keywords:
+- name: reactions
+  values: [P P --> jet + X, Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 6 (two bottom panels, right)
+name: Table 10
+---
+data_file: table11.yaml
+description: The ratio of Pb–Pb/pp distributions of $z_{g}$ at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0 \leq \theta_{g} < 0.3$.
+keywords:
+- name: reactions
+  values: [P P --> jet + X, Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures 7 (two bottom panels, left)
+name: Table 11
+---
+data_file: table12.yaml
+description: The ratio of Pb–Pb/pp distributions of $z_{g}$ at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0.3 \leq \theta_{g} < 1.0$.
+keywords:
+- name: reactions
+  values: [P P --> jet + X, Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location:  Figures 7 (two bottom panels, right)
+name: Table 12
+---
+data_file: table13.yaml
+description: The ratio of pp distributions of $\theta_{g}$ with high to low $z_{g}$ (0.35-0.5/0.2-0.35) ranges at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c.
+keywords:
+- name: reactions
+  values: [P P --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location:  Figures A3 (top panel)
+name: Table 13
+---
+data_file: table14.yaml
+description: The ratio of 0-10% central Pb–Pb distributions of $\theta_{g}$ with high to low $z_{g}$ (0.35-0.5/0.2-0.35) ranges at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c, for $0.3 \leq \theta_{g} < 1.0$.
+keywords:
+- name: reactions
+  values: [Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location:  Figures A3 (top panel)
+name: Table 14
+---
+data_file: table15.yaml
+description: The double ratio of Pb–Pb/pp($0.35 \leq z_{g} < 0.5$)/Pb–Pb/pp($0.2 \leq z_{g} < 0.35$) of $\theta_{g}$ at $\sqrt{s}=5.02$ TeV, for jets with $60 \leq p_{\mathrm {T},\mathrm {ch} \, \mathrm {jet}} < 80$ GeV/c.
+keywords:
+- name: reactions
+  values: [P P --> jet + X, Pb–Pb --> jet + X]
+- name: cmenergies
+  values: ['5020']
+location: Figures A3 (bottom panel)
+name: Table 15

@@ -1,0 +1,64 @@
+independent_variables:
+- header:
+    name: theta_g
+  values:
+  - low: 0
+    high: 0.1
+  - low: 0.1
+    high: 0.15
+  - low: 0.15
+    high: 0.22
+  - low: 0.22
+    high: 0.3
+  - low: 0.3
+    high: 0.4
+  - low: 0.4
+    high: 0.5
+  - low: 0.5
+    high: 0.7
+  - low: 0.7
+    high: 1
+
+dependent_variables:
+- header: {name: Pb–Pb/pp, units: 0-10 percent}
+  qualifiers:
+  - {name: R_jet, value: 0.2} 
+  - {name: Jet_algorithm, value: Anti-k_T} 
+  - {name: z_SD, value: 0.2} 
+  - {name: beta_SD, value: 0.0} 
+  - {name: p_Tjet, value: 60-80 GeV/c} 
+  - {name: eta_jet, value: -0.7 < eta_jet < 0.7 } 
+  - {name: zg_RANGE, value: 0.2-0.35}
+  values:
+  - value: 1.25249
+    errors:
+    - {label: stat, symerror: 0.261501}
+    - {label: sys,  symerror: 0.175039}
+  - value: 1.63259
+    errors:
+    - {label: stat, symerror: 0.313006}
+    - {label: sys,  symerror: 0.0921223}
+  - value: 1.14827
+    errors:
+    - {label: stat, symerror: 0.146215}
+    - {label: sys,  symerror: 0.0369732}
+  - value: 1.22041
+    errors:
+    - {label: stat, symerror: 0.143797}
+    - {label: sys,  symerror: 0.0517784}
+  - value: 1.01989
+    errors:
+    - {label: stat, symerror: 0.111217}
+    - {label: sys,  symerror: 0.0528165}
+  - value: 0.873977
+    errors:
+    - {label: stat, symerror: 0.111296}
+    - {label: sys,  symerror: 0.0715938}
+  - value: 0.852716
+    errors:
+    - {label: stat, symerror: 0.0961055}
+    - {label: sys,  symerror: 0.0760431}
+  - value: 0.843248
+    errors:
+    - {label: stat, symerror: 0.11618}
+    - {label: sys,  symerror: 0.0597191}
